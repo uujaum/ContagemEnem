@@ -37,11 +37,28 @@ header#titulo h2 {
 section#contador {
 	background-color: rgba(0,0,0,0.47);
 	text-align: center;
+	padding: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: -20px;
+}
+
+section#contador h3 {
+	font-size: 80pt;
+	color: white;
 }
 
 section#contador p {
 	color: white;
 	text-align: center;
+	font-size: 30pt;
+}
+
+div.tempo {
+	width: 25%;
+	height: 25%;
+	display: inline-block;
+	float: right;
 }
 
 /* Formatação do Footer rodapé */
