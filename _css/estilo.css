@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 body {
-	background-color: #00BFFF;
 	font-family: Arial, sans-serif;
 	color: black;
+	background-image: url("../_imagens/estudos.jpg");
 }
 
 div#interface {
-	width: 100%;
+	width: 1320px;
 	padding: 10px;
 }
 
@@ -35,43 +35,47 @@ header#titulo h2 {
 /* Formatação da Section Contador */
 
 section#contador {
-	background-color: rgba(0,0,0,0.47);
 	text-align: center;
-	padding: 10px;
-	margin-bottom: 50px;
-	margin-top: 50px;
-	margin-left: -20px;
+	margin-top: 70px;
 }
 
 section#contador h3 {
 	font-size: 80pt;
 	color: white;
+	margin: 5px;
 }
 
 section#contador p {
 	color: white;
 	text-align: center;
 	font-size: 30pt;
+	margin: 5px;
 }
 
 div.tempo {
-	width: 25%;
-	height: 25%;
+	width: 24%;
+	height: 24%;
 	display: inline-block;
 	float: left;
+	background-color: rgba(0,0,0,0.47);
+	padding: 50px 0px 50px 0px;
+	margin-left: 10px;
 }
+
 
 /* Formatação do Footer rodapé */
 
 footer#rodape {
 	background-color: rgba(0,0,0,0.47);
-	margin-right: 20px;
-	padding: 7px;
+	position:absolute;
+    bottom:0;
+    width:1320px;
 }
 
 footer#rodape p {
 	text-align: center;
 	font-size: 12pt;
 	color: white;
+	font-weight: bold;
 }
 
