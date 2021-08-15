@@ -58,7 +58,7 @@ div.tempo {
 	width: 25%;
 	height: 25%;
 	display: inline-block;
-	float: right;
+	float: left;
 }
 
 /* Formatação do Footer rodapé */
