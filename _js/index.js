@@ -3,8 +3,8 @@ const minutosContador = document.querySelector('#minutos');
 const horasContador = document.querySelector('#horas');
 const diasContador = document.querySelector('#dias');
 
-const proximoEnem = new Date().getFullYear() + 1;
-const proximoEnemAtual = new Date(`November 21 ${proximoEnem} 13:30:00`);
+const proximoEnem = new Date().getFullYear() +2;
+const proximoEnemAtual = new Date(`November 22 ${proximoEnem} 13:30:00`);
 
 const atualizaContagem = () => {
   const horaAtual = new Date();
